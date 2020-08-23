@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_pokemon_app/pokemon_list.dart';
 
 void main() {
   runApp(MyApp());
@@ -48,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
           delegate: SliverChildBuilderDelegate(
               (BuildContext context, int itm){
                 return Container(
-
+                    child: PokemonList(),
                 );
               }
           )

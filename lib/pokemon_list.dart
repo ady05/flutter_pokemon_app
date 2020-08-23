@@ -5,6 +5,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 
 class PokemonList extends StatefulWidget {
+  PokemonList();
   @override
   _PokemonListState createState() => _PokemonListState();
 }
